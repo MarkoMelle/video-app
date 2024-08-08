@@ -8,6 +8,8 @@ import {
   Typography,
 } from "@mui/material";
 import SearchIcon from "../../assets/icons/icon-search.svg";
+import MovieTrendList from "../../components/movie-list/movieTrendList";
+import MovieList from "../../components/movie-list";
 import { MovieDataType } from "../../assets/data";
 import { MovieContext } from "../../context/movie-context";
 
@@ -70,13 +72,13 @@ const Home = () => {
               <Typography variant="h5" component="h1" my={6} fontWeight={400}>
                 Trending
               </Typography>
-            
+              <MovieTrendList trendingList={trendingList} />
             </Box>
             <Box width="100%">
               <Typography variant="h5" component="h1" my={6} fontWeight={400}>
                 Recommended For You
               </Typography>
-              
+              <MovieList recommendList={recommendList} />
             </Box>
           </Box>
         ) : (
@@ -84,7 +86,7 @@ const Home = () => {
             <Typography>
               Found {searchList.length} results for "{search}"{""}
             </Typography>
-            
+            <MovieList recommendList={searchList} />
           </Box>
         )}
       </Box>

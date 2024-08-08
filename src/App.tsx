@@ -1,8 +1,14 @@
-import * as React from "react";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";
-const App = () => {
-  return <RouterProvider router={router} />;
-};
+import { MovieProvider } from "./context/movie-context";
+import "./App.css";
+
+function App() {
+  return (
+    <MovieProvider>
+      <RouterProvider router={router} />
+    </MovieProvider>
+  );
+}
 
 export default App;
