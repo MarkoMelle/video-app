@@ -8,7 +8,6 @@ interface MovieListProps {
 }
 
 const MovieList = ({ recommendList }: MovieListProps) => {
-  console.log("The recommendList is : ", recommendList);
   return (
     <Grid container spacing={2}>
       {recommendList.map((item) => (
