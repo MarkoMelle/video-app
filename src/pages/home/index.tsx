@@ -33,15 +33,16 @@ const Home = () => {
       <Box>
         <Paper
           component="form"
+          elevation={3}
           sx={{
             display: "flex",
             alignItems: "center",
-            borderRadius: "default",
             p: 1,
             backgroundColor: "#10141f",
             border: "none",
           }}
         >
+          
           <InputBase
             placeholder="Search for movies or TV series"
             sx={{

@@ -3,13 +3,13 @@ import homeIcon from "../../assets/icons/icon-nav-home.svg";
 import movieIcon from "../../assets/icons/icon-nav-movies.svg";
 import tvSeriesIcon from "../../assets/icons/icon-nav-tv-series.svg";
 import bookmarkIcon from "../../assets/icons/icon-nav-bookmark.svg";
-import { Box, Typography, MenuItem } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 const navLinks = [
   {
     name: "Home",
     icon: homeIcon,
-    link: "/home",
+    link: "/",
   },
   {
     name: "Movies",
