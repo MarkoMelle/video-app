@@ -1,7 +1,7 @@
 {
   "name": "video-app",
   "version": "0.1.0",
-  "homepage": "https://markomelle.github.io/video-app/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
