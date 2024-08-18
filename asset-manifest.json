@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.33e2da00.css",
-    "main.js": "./static/js/main.17580597.js",
-    "static/js/453.27af1369.chunk.js": "./static/js/453.27af1369.chunk.js",
-    "index.html": "./index.html",
-    "static/media/icon-category-movie.svg": "./static/media/icon-category-movie.6861d0ce9036ac864b87dc5aff6570c3.svg",
-    "static/media/icon-nav-bookmark.svg": "./static/media/icon-nav-bookmark.c28318609befdd68729582b682dc4089.svg",
-    "static/media/icon-nav-movies.svg": "./static/media/icon-nav-movies.53e6c7af153598af7a622f0153ec099c.svg",
-    "static/media/icon-nav-home.svg": "./static/media/icon-nav-home.8f8e61735670d7c80c59a9a596e4d2af.svg",
-    "static/media/icon-search.svg": "./static/media/icon-search.aa928440138d62c2b59e41719956797c.svg",
-    "static/media/icon-nav-tv-series.svg": "./static/media/icon-nav-tv-series.b89eb7c34cca597d20efb78937561b28.svg",
-    "static/media/icon-category-tv.svg": "./static/media/icon-category-tv.75c9208553d35303e2f1b61b511ab387.svg",
-    "main.33e2da00.css.map": "./static/css/main.33e2da00.css.map",
-    "main.17580597.js.map": "./static/js/main.17580597.js.map",
-    "453.27af1369.chunk.js.map": "./static/js/453.27af1369.chunk.js.map"
+    "main.css": "/static/css/main.33e2da00.css",
+    "main.js": "/static/js/main.6a192132.js",
+    "static/js/453.27af1369.chunk.js": "/static/js/453.27af1369.chunk.js",
+    "index.html": "/index.html",
+    "static/media/icon-category-movie.svg": "/static/media/icon-category-movie.6861d0ce9036ac864b87dc5aff6570c3.svg",
+    "static/media/icon-nav-bookmark.svg": "/static/media/icon-nav-bookmark.c28318609befdd68729582b682dc4089.svg",
+    "static/media/icon-nav-movies.svg": "/static/media/icon-nav-movies.53e6c7af153598af7a622f0153ec099c.svg",
+    "static/media/icon-nav-home.svg": "/static/media/icon-nav-home.8f8e61735670d7c80c59a9a596e4d2af.svg",
+    "static/media/icon-search.svg": "/static/media/icon-search.aa928440138d62c2b59e41719956797c.svg",
+    "static/media/icon-nav-tv-series.svg": "/static/media/icon-nav-tv-series.b89eb7c34cca597d20efb78937561b28.svg",
+    "static/media/icon-category-tv.svg": "/static/media/icon-category-tv.75c9208553d35303e2f1b61b511ab387.svg",
+    "main.33e2da00.css.map": "/static/css/main.33e2da00.css.map",
+    "main.6a192132.js.map": "/static/js/main.6a192132.js.map",
+    "453.27af1369.chunk.js.map": "/static/js/453.27af1369.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33e2da00.css",
-    "static/js/main.17580597.js"
+    "static/js/main.6a192132.js"
   ]
 }
